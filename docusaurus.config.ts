@@ -85,6 +85,11 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} bqbooster. Built with Docusaurus.`,
     },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false, // Keep the switch if you want users to toggle
+      respectPrefersColorScheme: true, // Optional: respect user's system preferences
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
